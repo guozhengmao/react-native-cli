@@ -1,0 +1,3 @@
+rootProject.name = 'fisrtApp'
+
+include ':app'
