@@ -9,8 +9,11 @@ import { Actions, } from 'react-native-router-flux';
 export default class TabBar extends Component{
     render() {
         return(
-            <View style={{flex: 1, paddingTop: 20}}>
+            <View style={{ paddingTop: 20}}>
                 <Text>这是tabBar</Text>
+                <Button
+                    title='222'
+                />
             </View>
         )
     }

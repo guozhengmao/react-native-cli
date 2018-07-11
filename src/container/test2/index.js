@@ -12,7 +12,7 @@ export default class Test2 extends Component{
             <View style={{paddingTop: 20}}>
                 <Text>这是test2页面</Text>
                 <Button
-                    onPress={() => Actions.push('test1', {abc: '112223'})}
+                    onPress={() => Actions.test1({abc: '112223'})}
                     title='跳转到test1页面'
                 />
             </View>

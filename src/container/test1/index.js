@@ -27,7 +27,7 @@ export default class Test1 extends Component{
                     title='跳转到test2页面'
                 />
                 {
-                    abc ? <Text>{abc}</Text> : 'none'
+                    abc ? <Text>{abc}</Text> : <Text>没有state</Text>
                 }
                 <Text>{test.num}</Text>
                 <Button
